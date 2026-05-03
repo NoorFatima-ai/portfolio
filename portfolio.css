@@ -1,1 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #0f0f1a;
+    color: #e5e7eb;
+}
 
+/* Header */
+.head{
+    background-color: #1a1a2e;
+    padding: 20px 0;
+    box-shadow: 0 4px 15px rgba(34, 211, 238, 0.3);
+    position: fixed;
+    width: 100%;
+}
