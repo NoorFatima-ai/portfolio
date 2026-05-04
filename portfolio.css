@@ -17,3 +17,39 @@ body{
     position: fixed;
     width: 100%;
 }
+main{
+    padding-top: 5%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+/* logo */
+.logo_link{
+    text-decoration: none;
+    font-size: 48px;
+    color: #22d3ee;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.logo_link:hover{
+    transform: scale(1.05);
+}
+.logo span{
+    color: aliceblue;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav_list a{
+    text-decoration: none;
+    font-size: 20px;
+    color:  #e5e7eb;
+    display: inline-block;
+    transition: transform 0.3s ease, text-shadow  0.3s ease;
+}
